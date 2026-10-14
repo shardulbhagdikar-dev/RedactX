@@ -1,0 +1,43 @@
+================================================================================
+REDACTX ENTERPRISE DLP DEMO - SYSTEM INCIDENT & SERVER LOG
+File Type: Plain Text (.txt) - Unstructured Text & Log Stream
+================================================================================
+
+[2026-10-09 04:12:01.402] [AUTH_SERVICE] [INFO] Authentication gateway initialized on host 192.168.1.100:8443
+[2026-10-09 04:12:03.118] [DATABASE] [WARN] Connected to production database cluster at 10.0.4.15
+[2026-10-09 04:12:03.119] [DATABASE] [SECURITY] admin_password = "P@ssw0rdSecure2026!"
+
+--------------------------------------------------------------------------------
+FEATURE 1: SHANNON ENTROPY RANDOMNESS ANALYSIS (API Keys vs Dummy Strings)
+--------------------------------------------------------------------------------
+# Active Production Payment Gateway Key (Shannon Entropy: 4.62 bits -> REDACTED)
+stripe_secret_key = "sk_test_51NzTe8L9aXyZ0kQm3P8jVw2bC"
+
+# AWS Production Access Key (Verified Provider Signature -> REDACTED)
+aws_access_key = "AKIAIOSFODNN7EXAMPLE"
+
+# Low-Entropy Repetitive Test String (Shannon Entropy: 0.00 bits -> PRESERVED / NOT REDACTED)
+mock_test_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+
+--------------------------------------------------------------------------------
+FEATURE 2: LUHN ALGORITHM (Valid vs Contextual vs Arbitrary 16-Digit Numbers)
+--------------------------------------------------------------------------------
+# Case A: Valid Visa Card Number (Passed Luhn Checksum Formula -> REDACTED)
+Billing Customer Card: 4532 0151 1283 0366
+
+# Case B: Typo/Test Card with Explicit Context (Failed Luhn Checksum + Card Context -> REDACTED)
+Credit Card - 8316581365322344
+
+# Case C: Arbitrary 16-Digit Warehouse Barcode (Failed Luhn + NO Card Context -> PRESERVED / NOT REDACTED)
+Warehouse Hardware Item Barcode: 8316581365322344
+
+--------------------------------------------------------------------------------
+FEATURE 3: NETWORK & TELECOM CHANNELS (IPv4 & High-Risk Public IP)
+--------------------------------------------------------------------------------
+# Private Internal Host IP (Class C Private Range -> REDACTED)
+Internal Security Proxy IP: 192.168.1.1
+
+# Public Facing Gateway Server (Global IP Range -> REDACTED)
+Public Egress Router IP: 203.0.113.45
+
+[2026-10-09 04:12:15.990] [AUDIT] Log stream capture completed.

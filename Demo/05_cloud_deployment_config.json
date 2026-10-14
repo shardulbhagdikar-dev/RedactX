@@ -1,0 +1,31 @@
+{
+  "service_name": "redactx-cloud-engine",
+  "environment": "production",
+  "aws_production": {
+    "region": "ap-south-1",
+    "access_key_id": "AKIAIOSFODNN7EXAMPLE",
+    "secret_access_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  "payment_gateway": {
+    "provider": "Stripe",
+    "api_version": "2026-03-01",
+    "stripe_live_key": "sk_test_51NzTe8L9aXyZ0kQm3P8jVw2bC",
+    "dummy_placeholder": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "database_cluster": {
+    "host": "10.0.4.15",
+    "port": 5432,
+    "database_name": "prod_vault",
+    "admin_password": "P@ssw0rdSecure2026!"
+  },
+  "infrastructure_audit": {
+    "hardware_serial_id": "8316581365322344",
+    "primary_card_number": "4532 0151 1283 0366",
+    "backup_card_number": "8316581365322345"
+  },
+  "on_call_devops": {
+    "lead_name": "Karan Mehra",
+    "emergency_phone": "+91-9820123456",
+    "settlement_upi": "devops.lead@okhdfcbank"
+  }
+}

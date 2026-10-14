@@ -1,0 +1,6 @@
+customer_id,full_name,email,phone_number,upi_vpa,card_number,account_reference
+CUST-1001,Priya Verma,priya.verma@gmail.com,+91-9820123456,priya.verma@oksbi,4532 0151 1283 0366,REF-992144
+CUST-1002,Arun Patel,arun.patel@corporate.in,9812345678,arun.patel@paytm,5412-7512-3412-3452,REF-884120
+CUST-1003,Sunil Deshmukh,sunil.d@fintech.co.in,+91-9892345678,sunil.d@okaxis,6070123456789017,8316581365322344
+CUST-1004,Meera Nambiar,meera.n@outlook.com,+91-9765432109,meera.nambiar@ybl,8316581365322344,REF-771239
+CUST-1005,Vikram Malhotra,vikram.m@banking.org,+91-9820987654,vikram@okhdfcbank,378282246310005,REF-660192
