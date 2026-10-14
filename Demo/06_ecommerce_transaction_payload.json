@@ -1,0 +1,21 @@
+{
+  "transaction_id": "TXN-2026-9908124",
+  "status": "SETTLED",
+  "amount_inr": 18450.00,
+  "customer_profile": {
+    "full_name": "Neha Singhal",
+    "email": "neha.singhal@domain.co.in",
+    "mobile": "+91-9892345678",
+    "aadhaar_identity": "2341 2341 2346"
+  },
+  "payment_details": {
+    "settlement_type": "UPI_AND_CARD",
+    "vpa_address": "neha.singhal@okaxis",
+    "card_number": "5412-7512-3412-3452"
+  },
+  "shipping_logistics": {
+    "destination_country": "India",
+    "warehouse_barcode": "8316581365322344",
+    "dispatch_tracking_id": "202610095432"
+  }
+}

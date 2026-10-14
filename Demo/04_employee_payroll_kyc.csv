@@ -1,0 +1,5 @@
+emp_id,employee_name,department,aadhaar_number,contact_mobile,salary_tracking_code
+EMP-001,Rajesh Khanna,Engineering,2341 2341 2346,+91-9820123456,202610095432
+EMP-002,Deepika Padukone,Human Resources,2341 2341 2345,9812345678,202610095433
+EMP-003,Amitabh Bachchan,Finance Operations,2341-2341-2346,+91-9892345678,202610095434
+EMP-004,Kareena Kapoor,Legal Compliance,2341 2341 2346,+91-9765432109,202610095435
